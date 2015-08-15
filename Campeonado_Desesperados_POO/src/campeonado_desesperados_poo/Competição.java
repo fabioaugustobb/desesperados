@@ -229,7 +229,7 @@ public class Competição extends javax.swing.JPanel {
                                         .addGap(0, 0, Short.MAX_VALUE)))))))
                 .addGap(10, 10, 10))
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(127, 127, 127)
+                .addGap(138, 138, 138)
                 .addComponent(btSortear)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(btLimparRes)
