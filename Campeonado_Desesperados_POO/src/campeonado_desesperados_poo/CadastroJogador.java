@@ -5,6 +5,8 @@
  */
 package campeonado_desesperados_poo;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author a1420364
@@ -64,6 +66,18 @@ public class CadastroJogador extends javax.swing.JFrame {
             }
         });
 
+        txtRg.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtRgActionPerformed(evt);
+            }
+        });
+
+        txtNome.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtNomeActionPerformed(evt);
+            }
+        });
+
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel3.setText("Nome:");
 
@@ -84,6 +98,11 @@ public class CadastroJogador extends javax.swing.JFrame {
         });
 
         btSalvar.setText("Salvar");
+        btSalvar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btSalvarActionPerformed(evt);
+            }
+        });
 
         btFechar.setText("Fechar");
         btFechar.addActionListener(new java.awt.event.ActionListener() {
@@ -189,6 +208,33 @@ public class CadastroJogador extends javax.swing.JFrame {
     private void btFecharActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btFecharActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btFecharActionPerformed
+
+    private void txtNomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNomeActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtNomeActionPerformed
+
+    private void btSalvarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btSalvarActionPerformed
+
+        // Quando for salvar o dados da tela
+        String nome     = txtNome.getText();
+        int rg          = Integer.parseInt(txtRg.getText());  // Converter a entrada para inteiro
+        String endereco = txtEnd.getText();
+        int telefone    = Integer.parseInt(txtTelefone.getText());
+
+        // Instanciar o objeto Jogador que contém todos os get e sets
+        Jogador novojogador = new Jogador();
+         novojogador.setNome(nome);
+         novojogador.setRg(rg);
+         novojogador.setEndereco(endereco);
+         novojogador.setTelefone(telefone);        
+         
+         JOptionPane.showMessageDialog(this, " Cadastros efetuado com sucesso"); 
+         
+    }//GEN-LAST:event_btSalvarActionPerformed
+
+    private void txtRgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtRgActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtRgActionPerformed
 
     /**
      * @param args the command line arguments
