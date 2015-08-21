@@ -27,89 +27,89 @@ public class Competição extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
+        jP_TelaCompetição = new javax.swing.JPanel();
+        jL_NomeJogo = new javax.swing.JLabel();
+        jL_jogo4 = new javax.swing.JLabel();
+        jL_jogo1 = new javax.swing.JLabel();
+        jL_jogo3 = new javax.swing.JLabel();
+        jL_jogo2 = new javax.swing.JLabel();
+        jL_jogo6 = new javax.swing.JLabel();
+        jL_jogo7 = new javax.swing.JLabel();
+        jL_jogo5 = new javax.swing.JLabel();
+        jL_jogo8 = new javax.swing.JLabel();
         rbAdv2_1 = new javax.swing.JRadioButton();
         rbAdv1_1 = new javax.swing.JRadioButton();
         btSortear = new javax.swing.JButton();
         btLimparRes = new javax.swing.JButton();
         btProxRodada = new javax.swing.JButton();
         rbAdv3_2 = new javax.swing.JRadioButton();
-        rbAdv4_2 = new javax.swing.JRadioButton();
-        rbAdv8_4 = new javax.swing.JRadioButton();
-        rbAdv6_3 = new javax.swing.JRadioButton();
-        rbAdv5_3 = new javax.swing.JRadioButton();
-        rbAdv10_5 = new javax.swing.JRadioButton();
-        rbAdv9_5 = new javax.swing.JRadioButton();
-        rbAdv11_6 = new javax.swing.JRadioButton();
-        rbAdv12_6 = new javax.swing.JRadioButton();
+        rbAdv6_3v = new javax.swing.JRadioButton();
+        rbAdv5_3v = new javax.swing.JRadioButton();
+        rbAdv12_6v = new javax.swing.JRadioButton();
+        rbAdv11_6v = new javax.swing.JRadioButton();
+        rbAdv13_7v = new javax.swing.JRadioButton();
+        rbAdv14_7v = new javax.swing.JRadioButton();
         rbAdv15_8 = new javax.swing.JRadioButton();
         rbAdv16_8 = new javax.swing.JRadioButton();
-        rbAdv13_7 = new javax.swing.JRadioButton();
-        rbAdv14_7 = new javax.swing.JRadioButton();
-        rbAdv15_9 = new javax.swing.JRadioButton();
-        rbAdv16_9 = new javax.swing.JRadioButton();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
-        rbAdv15_10 = new javax.swing.JRadioButton();
-        rbAdv16_10 = new javax.swing.JRadioButton();
-        rbAdv4_3 = new javax.swing.JRadioButton();
-        rbAdv4_4 = new javax.swing.JRadioButton();
-        rbAdv8_5 = new javax.swing.JRadioButton();
-        rbAdv4_5 = new javax.swing.JRadioButton();
-        rbAdv4_6 = new javax.swing.JRadioButton();
-        jLabel18 = new javax.swing.JLabel();
-        rbAdv4_7 = new javax.swing.JRadioButton();
-        rbAdv4_8 = new javax.swing.JRadioButton();
-        jLabel19 = new javax.swing.JLabel();
-        rbAdv4_9 = new javax.swing.JRadioButton();
-        rbAdv4_10 = new javax.swing.JRadioButton();
-        jLabel20 = new javax.swing.JLabel();
-        rbAdv4_11 = new javax.swing.JRadioButton();
-        rbAdv4_12 = new javax.swing.JRadioButton();
-        jLabel21 = new javax.swing.JLabel();
-        rbAdv4_13 = new javax.swing.JRadioButton();
-        rbAdv4_14 = new javax.swing.JRadioButton();
-        jLabel22 = new javax.swing.JLabel();
+        rbAdv9_5v = new javax.swing.JRadioButton();
+        rbAdv10_5v = new javax.swing.JRadioButton();
+        rbAdvQ4_1 = new javax.swing.JRadioButton();
+        rbAdvQ4_2 = new javax.swing.JRadioButton();
+        jL_Q4 = new javax.swing.JLabel();
+        jL_Q3 = new javax.swing.JLabel();
+        rbAdvQ3_1 = new javax.swing.JRadioButton();
+        rbAdvQ3_2 = new javax.swing.JRadioButton();
+        rbAdv7_4 = new javax.swing.JRadioButton();
+        rbAdv8_4 = new javax.swing.JRadioButton();
+        rbAdv4_2 = new javax.swing.JRadioButton();
+        rbAdvQ2_1 = new javax.swing.JRadioButton();
+        rbAdvQ2_2 = new javax.swing.JRadioButton();
+        jL_Q2 = new javax.swing.JLabel();
+        rbAdvQ1_2 = new javax.swing.JRadioButton();
+        rbAdvQ1_1 = new javax.swing.JRadioButton();
+        jL_Q1 = new javax.swing.JLabel();
+        rbAdvS1_1 = new javax.swing.JRadioButton();
+        rbAdvS1_2 = new javax.swing.JRadioButton();
+        jL_S1 = new javax.swing.JLabel();
+        rbAdvF_1 = new javax.swing.JRadioButton();
+        rbAdvF_2 = new javax.swing.JRadioButton();
+        jL_Campeão = new javax.swing.JLabel();
+        rbAdvS2_1 = new javax.swing.JRadioButton();
+        rbAdvS2_2 = new javax.swing.JRadioButton();
+        jL_S2 = new javax.swing.JLabel();
+        rbAdvCamp = new javax.swing.JRadioButton();
+        jL_Final = new javax.swing.JLabel();
 
-        jPanel1.setBackground(new java.awt.Color(153, 255, 153));
+        jP_TelaCompetição.setBackground(new java.awt.Color(153, 255, 153));
 
-        jLabel2.setFont(new java.awt.Font("Tempus Sans ITC", 1, 48)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(204, 0, 0));
-        jLabel2.setText("Play Tênis");
-        jLabel2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jL_NomeJogo.setFont(new java.awt.Font("Tempus Sans ITC", 1, 48)); // NOI18N
+        jL_NomeJogo.setForeground(new java.awt.Color(204, 0, 0));
+        jL_NomeJogo.setText("Play Tênis");
+        jL_NomeJogo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel8.setText("Jogo 4");
+        jL_jogo4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jL_jogo4.setText("Jogo 4");
 
-        jLabel9.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel9.setText("Jogo 1");
+        jL_jogo1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jL_jogo1.setText("Jogo 1");
 
-        jLabel10.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel10.setText("Jogo 3");
+        jL_jogo3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jL_jogo3.setText("Jogo 3");
 
-        jLabel11.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel11.setText("Jogo 2");
+        jL_jogo2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jL_jogo2.setText("Jogo 2");
 
-        jLabel12.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel12.setText("Jogo 6");
+        jL_jogo6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jL_jogo6.setText("Jogo 6");
 
-        jLabel13.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel13.setText("Jogo 7");
+        jL_jogo7.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jL_jogo7.setText("Jogo 7");
 
-        jLabel14.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel14.setText("Jogo 5");
+        jL_jogo5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jL_jogo5.setText("Jogo 5");
 
-        jLabel15.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel15.setText("Jogo 8");
+        jL_jogo8.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jL_jogo8.setText("Jogo 8");
 
         btSortear.setText("Sortear Jogos");
         btSortear.addActionListener(new java.awt.event.ActionListener() {
@@ -132,294 +132,290 @@ public class Competição extends javax.swing.JPanel {
             }
         });
 
-        rbAdv12_6.addActionListener(new java.awt.event.ActionListener() {
+        rbAdv13_7v.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                rbAdv12_6ActionPerformed(evt);
+                rbAdv13_7vActionPerformed(evt);
             }
         });
 
-        jLabel16.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel16.setText("Quartas de Final 4");
+        rbAdv14_7v.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                rbAdv14_7vActionPerformed(evt);
+            }
+        });
 
-        jLabel17.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel17.setText("Quartas de Final 3");
+        jL_Q4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jL_Q4.setText("Quartas de Final 4");
 
-        jLabel18.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel18.setText("Quartas de Final 2");
+        jL_Q3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jL_Q3.setText("Quartas de Final 3");
 
-        jLabel19.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel19.setText("Quartas de Final 1");
+        jL_Q2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jL_Q2.setText("Quartas de Final 2");
 
-        jLabel20.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel20.setText("Jogo 2 ");
+        jL_Q1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jL_Q1.setText("Quartas de Final 1");
 
-        jLabel21.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel21.setText("Jogo 2 ");
+        jL_S1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jL_S1.setText("Semifinal 1");
 
-        jLabel22.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel22.setText("Jogo 2 ");
+        jL_Campeão.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jL_Campeão.setText("Campeão");
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(28, 28, 28)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(18, 18, 18)
-                                .addComponent(jLabel18))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(rbAdv4_5, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(rbAdv4_6, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(120, 120, 120))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(rbAdv13_7, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(rbAdv14_7, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(26, 26, 26)
-                                .addComponent(rbAdv9_5, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(jPanel1Layout.createSequentialGroup()
-                                    .addGap(18, 18, 18)
-                                    .addComponent(jLabel19))
-                                .addGroup(jPanel1Layout.createSequentialGroup()
-                                    .addComponent(rbAdv4_7, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(18, 18, 18)
-                                    .addComponent(rbAdv4_8, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jLabel17)
-                                .addGap(38, 38, 38))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(rbAdv15_10, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(rbAdv16_10, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(27, 27, 27)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(18, 18, 18)
-                                .addComponent(jLabel20)
-                                .addGap(0, 0, Short.MAX_VALUE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(rbAdv10_5, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(35, 35, 35)
-                                .addComponent(rbAdv11_6, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(rbAdv12_6, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
-                                        .addComponent(rbAdv15_8, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(rbAdv16_8, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                                .addGap(21, 21, 21)
-                                                .addComponent(jLabel16))
-                                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                                .addComponent(rbAdv15_9, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(rbAdv16_9, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                        .addGap(0, 0, Short.MAX_VALUE)))))))
-                .addGap(10, 10, 10))
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        jL_S2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jL_S2.setText("Semifinal 2");
+
+        jL_Final.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jL_Final.setText("Final");
+
+        javax.swing.GroupLayout jP_TelaCompetiçãoLayout = new javax.swing.GroupLayout(jP_TelaCompetição);
+        jP_TelaCompetição.setLayout(jP_TelaCompetiçãoLayout);
+        jP_TelaCompetiçãoLayout.setHorizontalGroup(
+            jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jP_TelaCompetiçãoLayout.createSequentialGroup()
+                        .addComponent(rbAdv1_1, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(rbAdv2_1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(664, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jP_TelaCompetiçãoLayout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addComponent(jL_jogo1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jL_jogo2)
+                        .addGap(165, 165, 165)
+                        .addComponent(jL_jogo3)
+                        .addGap(166, 166, 166)
+                        .addComponent(jL_jogo4)
+                        .addGap(71, 71, 71))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jP_TelaCompetiçãoLayout.createSequentialGroup()
+                        .addGap(209, 209, 209)
+                        .addComponent(rbAdv3_2, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(rbAdv4_2, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(rbAdv5_3v, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(rbAdv6_3v, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(36, 36, 36)
+                        .addComponent(rbAdv7_4, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(rbAdv8_4, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap())))
+            .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                        .addGap(53, 53, 53)
+                        .addComponent(jL_jogo5)
+                        .addGap(170, 170, 170)
+                        .addComponent(jL_jogo6)
+                        .addGap(157, 157, 157)
+                        .addComponent(jL_jogo7)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jL_jogo8)
+                        .addGap(80, 80, 80))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jP_TelaCompetiçãoLayout.createSequentialGroup()
+                        .addComponent(rbAdv9_5v, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(rbAdv10_5v, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(35, 35, 35)
+                        .addComponent(rbAdv11_6v, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(rbAdv12_6v, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                                .addComponent(rbAdv13_7v, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(22, 22, 22)
+                                .addComponent(rbAdv14_7v, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(36, 36, 36)
+                                .addComponent(rbAdv15_8, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(22, 22, 22)
+                                .addComponent(rbAdv16_8, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                                .addGap(94, 94, 94)
+                                .addComponent(rbAdvS2_1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(27, 27, 27)
+                                .addComponent(rbAdvS2_2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jL_Q3))))
+                .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jP_TelaCompetiçãoLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jL_NomeJogo)
+                .addGap(297, 297, 297))
+            .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                        .addGap(387, 387, 387)
+                        .addComponent(jL_Campeão))
+                    .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                        .addGap(303, 303, 303)
+                        .addComponent(rbAdvF_1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(29, 29, 29)
+                        .addComponent(rbAdvF_2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                        .addGap(400, 400, 400)
+                        .addComponent(jL_Final)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jP_TelaCompetiçãoLayout.createSequentialGroup()
                 .addGap(138, 138, 138)
                 .addComponent(btSortear)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btLimparRes)
-                .addGap(130, 130, 130)
-                .addComponent(btProxRodada)
+                .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(rbAdvCamp, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                        .addComponent(btLimparRes)
+                        .addGap(130, 130, 130)
+                        .addComponent(btProxRodada)))
                 .addGap(109, 109, 109))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(83, 83, 83)
-                .addComponent(jLabel14)
-                .addGap(142, 142, 142)
-                .addComponent(jLabel12)
-                .addGap(157, 157, 157)
-                .addComponent(jLabel13)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel15)
-                .addGap(86, 86, 86))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(rbAdv1_1, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                .addGap(78, 78, 78)
+                .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                        .addComponent(rbAdvS1_1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(37, 37, 37)
+                        .addComponent(rbAdvS1_2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(529, Short.MAX_VALUE))
+                    .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                        .addGap(92, 92, 92)
+                        .addComponent(jL_S1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jL_S2)
+                        .addGap(149, 149, 149))))
+            .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
                                 .addGap(18, 18, 18)
-                                .addComponent(rbAdv2_1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(0, 0, Short.MAX_VALUE)
-                                        .addComponent(jLabel2))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(54, 54, 54)
-                                        .addComponent(jLabel9)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jLabel11)
-                                        .addGap(155, 155, 155)
-                                        .addComponent(jLabel10)))
-                                .addGap(137, 137, 137)))
-                        .addComponent(jLabel8)
-                        .addGap(100, 100, 100))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(rbAdv4_9, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(rbAdv5_3, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jL_Q1)
+                                .addGap(47, 47, 47)
+                                .addComponent(rbAdvQ2_1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addComponent(rbAdv6_3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(35, 35, 35)
-                                .addComponent(rbAdv3_2, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(rbAdv8_5, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(29, 29, 29)
-                                .addComponent(rbAdv4_10, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(0, 0, Short.MAX_VALUE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addComponent(rbAdvQ2_2, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(271, 271, 271)
+                                .addComponent(rbAdvQ4_1, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(jPanel1Layout.createSequentialGroup()
-                                            .addGap(40, 40, 40)
-                                            .addComponent(jLabel22)
-                                            .addGap(89, 89, 89))
-                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                            .addComponent(rbAdv4_13, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addGap(29, 29, 29)
-                                            .addComponent(rbAdv4_14, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(rbAdv8_4, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(rbAdv4_2, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(36, 36, 36)
-                                        .addComponent(rbAdv4_3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(rbAdvQ4_2, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                                .addComponent(rbAdvQ1_1, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addComponent(rbAdv4_4, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(40, 40, 40)
-                                .addComponent(jLabel21)
-                                .addGap(89, 89, 89))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addComponent(rbAdv4_11, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(29, 29, 29)
-                                .addComponent(rbAdv4_12, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(340, 340, 340)))
+                                .addComponent(rbAdvQ1_2, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(252, 252, 252)
+                                .addComponent(rbAdvQ3_1, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(rbAdvQ3_2, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(214, 214, 214))))
+                    .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                        .addGap(227, 227, 227)
+                        .addComponent(jL_Q2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jL_Q4)
+                        .addGap(18, 18, 18)))
                 .addContainerGap())
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        jP_TelaCompetiçãoLayout.setVerticalGroup(
+            jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel2)
-                .addGap(55, 55, 55)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel8)
-                            .addComponent(jLabel10)
-                            .addComponent(jLabel11))
+                .addComponent(jL_NomeJogo)
+                .addGap(18, 18, 18)
+                .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                        .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jL_jogo4)
+                            .addComponent(jL_jogo3))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(rbAdv3_2)
-                            .addComponent(rbAdv4_2)
-                            .addComponent(rbAdv6_3)
-                            .addComponent(rbAdv5_3)
-                            .addComponent(rbAdv4_3)
-                            .addComponent(rbAdv4_4)
-                            .addComponent(rbAdv8_4)))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel9)
+                            .addComponent(rbAdv6_3v)
+                            .addComponent(rbAdv7_4)
+                            .addComponent(rbAdv8_4)
+                            .addComponent(rbAdv5_3v)))
+                    .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                        .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jL_jogo1)
+                            .addComponent(jL_jogo2))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(rbAdv2_1)
                             .addComponent(rbAdv1_1)
-                            .addComponent(rbAdv8_5))))
-                .addGap(38, 38, 38)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel18)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(rbAdv4_5)
-                            .addComponent(rbAdv4_6)))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel19)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(rbAdv4_7)
-                            .addComponent(rbAdv4_8))))
-                .addGap(37, 37, 37)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(rbAdv4_9)
+                            .addComponent(rbAdv4_2))))
+                .addGap(32, 32, 32)
+                .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                        .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jL_jogo6)
+                            .addComponent(jL_jogo7)
+                            .addComponent(jL_jogo8, javax.swing.GroupLayout.Alignment.TRAILING))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel20))
-                    .addComponent(rbAdv4_10))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(rbAdv4_13)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel22))
-                    .addComponent(rbAdv4_14))
+                        .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(rbAdv10_5v, javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(rbAdv9_5v, javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(rbAdv12_6v)
+                                    .addComponent(rbAdv11_6v)))
+                            .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(rbAdv16_8)
+                                    .addComponent(rbAdv15_8))
+                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(rbAdv14_7v)
+                                    .addComponent(rbAdv13_7v)))))
+                    .addComponent(jL_jogo5))
+                .addGap(66, 66, 66)
+                .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                        .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jL_Q4)
+                            .addComponent(jL_Q3)
+                            .addComponent(jL_Q2))
+                        .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(rbAdvQ2_1)
+                                    .addComponent(rbAdvQ2_2)
+                                    .addComponent(rbAdvQ3_2)
+                                    .addComponent(rbAdvQ3_1)
+                                    .addComponent(rbAdvQ4_2)
+                                    .addComponent(rbAdvQ4_1)))
+                            .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                                .addGap(7, 7, 7)
+                                .addComponent(rbAdvQ1_2))))
+                    .addGroup(jP_TelaCompetiçãoLayout.createSequentialGroup()
+                        .addComponent(jL_Q1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(rbAdvQ1_1)))
+                .addGap(46, 46, 46)
+                .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jL_S1)
+                    .addComponent(jL_S2))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(rbAdvS2_1)
+                        .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(rbAdvS1_1)
+                            .addComponent(rbAdvS1_2)))
+                    .addComponent(rbAdvS2_2))
+                .addGap(41, 41, 41)
+                .addComponent(jL_Final)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(rbAdvF_1)
+                    .addComponent(rbAdvF_2))
                 .addGap(24, 24, 24)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(rbAdv4_11)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel21))
-                    .addComponent(rbAdv4_12))
-                .addGap(8, 8, 8)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(rbAdv16_10)
-                            .addComponent(rbAdv15_10))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel17)
-                        .addGap(36, 36, 36)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(rbAdv14_7, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(rbAdv13_7, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(rbAdv10_5)
-                                .addComponent(rbAdv9_5))))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(rbAdv16_9)
-                            .addComponent(rbAdv15_9))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel16)
-                        .addGap(41, 41, 41)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(rbAdv16_8)
-                                .addComponent(rbAdv15_8))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(rbAdv12_6)
-                                .addComponent(rbAdv11_6)))))
+                .addComponent(jL_Campeão)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel14)
-                    .addComponent(jLabel12)
-                    .addComponent(jLabel13)
-                    .addComponent(jLabel15))
-                .addGap(30, 30, 30)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(rbAdvCamp)
+                .addGap(61, 61, 61)
+                .addGroup(jP_TelaCompetiçãoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btSortear, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btLimparRes, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btProxRodada, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -430,17 +426,17 @@ public class Competição extends javax.swing.JPanel {
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jP_TelaCompetição, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jP_TelaCompetição, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void rbAdv12_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rbAdv12_6ActionPerformed
+    private void rbAdv14_7vActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rbAdv14_7vActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_rbAdv12_6ActionPerformed
+    }//GEN-LAST:event_rbAdv14_7vActionPerformed
 
     private void btProxRodadaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btProxRodadaActionPerformed
         // TODO add your handling code here:
@@ -455,59 +451,63 @@ public class Competição extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_btSortearActionPerformed
 
+    private void rbAdv13_7vActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rbAdv13_7vActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_rbAdv13_7vActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btLimparRes;
     private javax.swing.JButton btProxRodada;
     private javax.swing.JButton btSortear;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JRadioButton rbAdv10_5;
-    private javax.swing.JRadioButton rbAdv11_6;
-    private javax.swing.JRadioButton rbAdv12_6;
-    private javax.swing.JRadioButton rbAdv13_7;
-    private javax.swing.JRadioButton rbAdv14_7;
-    private javax.swing.JRadioButton rbAdv15_10;
+    private javax.swing.JLabel jL_Campeão;
+    private javax.swing.JLabel jL_Final;
+    private javax.swing.JLabel jL_NomeJogo;
+    private javax.swing.JLabel jL_Q1;
+    private javax.swing.JLabel jL_Q2;
+    private javax.swing.JLabel jL_Q3;
+    private javax.swing.JLabel jL_Q4;
+    private javax.swing.JLabel jL_S1;
+    private javax.swing.JLabel jL_S2;
+    private javax.swing.JLabel jL_jogo1;
+    private javax.swing.JLabel jL_jogo2;
+    private javax.swing.JLabel jL_jogo3;
+    private javax.swing.JLabel jL_jogo4;
+    private javax.swing.JLabel jL_jogo5;
+    private javax.swing.JLabel jL_jogo6;
+    private javax.swing.JLabel jL_jogo7;
+    private javax.swing.JLabel jL_jogo8;
+    private javax.swing.JPanel jP_TelaCompetição;
+    private javax.swing.JRadioButton rbAdv10_5v;
+    private javax.swing.JRadioButton rbAdv11_6v;
+    private javax.swing.JRadioButton rbAdv12_6v;
+    private javax.swing.JRadioButton rbAdv13_7v;
+    private javax.swing.JRadioButton rbAdv14_7v;
     private javax.swing.JRadioButton rbAdv15_8;
-    private javax.swing.JRadioButton rbAdv15_9;
-    private javax.swing.JRadioButton rbAdv16_10;
     private javax.swing.JRadioButton rbAdv16_8;
-    private javax.swing.JRadioButton rbAdv16_9;
     private javax.swing.JRadioButton rbAdv1_1;
     private javax.swing.JRadioButton rbAdv2_1;
     private javax.swing.JRadioButton rbAdv3_2;
-    private javax.swing.JRadioButton rbAdv4_10;
-    private javax.swing.JRadioButton rbAdv4_11;
-    private javax.swing.JRadioButton rbAdv4_12;
-    private javax.swing.JRadioButton rbAdv4_13;
-    private javax.swing.JRadioButton rbAdv4_14;
     private javax.swing.JRadioButton rbAdv4_2;
-    private javax.swing.JRadioButton rbAdv4_3;
-    private javax.swing.JRadioButton rbAdv4_4;
-    private javax.swing.JRadioButton rbAdv4_5;
-    private javax.swing.JRadioButton rbAdv4_6;
-    private javax.swing.JRadioButton rbAdv4_7;
-    private javax.swing.JRadioButton rbAdv4_8;
-    private javax.swing.JRadioButton rbAdv4_9;
-    private javax.swing.JRadioButton rbAdv5_3;
-    private javax.swing.JRadioButton rbAdv6_3;
+    private javax.swing.JRadioButton rbAdv5_3v;
+    private javax.swing.JRadioButton rbAdv6_3v;
+    private javax.swing.JRadioButton rbAdv7_4;
     private javax.swing.JRadioButton rbAdv8_4;
-    private javax.swing.JRadioButton rbAdv8_5;
-    private javax.swing.JRadioButton rbAdv9_5;
+    private javax.swing.JRadioButton rbAdv9_5v;
+    private javax.swing.JRadioButton rbAdvCamp;
+    private javax.swing.JRadioButton rbAdvF_1;
+    private javax.swing.JRadioButton rbAdvF_2;
+    private javax.swing.JRadioButton rbAdvQ1_1;
+    private javax.swing.JRadioButton rbAdvQ1_2;
+    private javax.swing.JRadioButton rbAdvQ2_1;
+    private javax.swing.JRadioButton rbAdvQ2_2;
+    private javax.swing.JRadioButton rbAdvQ3_1;
+    private javax.swing.JRadioButton rbAdvQ3_2;
+    private javax.swing.JRadioButton rbAdvQ4_1;
+    private javax.swing.JRadioButton rbAdvQ4_2;
+    private javax.swing.JRadioButton rbAdvS1_1;
+    private javax.swing.JRadioButton rbAdvS1_2;
+    private javax.swing.JRadioButton rbAdvS2_1;
+    private javax.swing.JRadioButton rbAdvS2_2;
     // End of variables declaration//GEN-END:variables
 }
