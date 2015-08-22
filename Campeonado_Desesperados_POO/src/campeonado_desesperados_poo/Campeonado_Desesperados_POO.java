@@ -15,7 +15,10 @@ public class Campeonado_Desesperados_POO {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Jogador jogador;
+        
+        // Instânciar a classe SalvarJogador 
+        SalvarJogador salvarJogador = new SalvarJogador();
     }
     
 }

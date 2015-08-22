@@ -12,6 +12,8 @@ import javax.swing.JOptionPane;
  * @author a1420364
  */
 public class CadastroJogador extends javax.swing.JFrame {
+    // A Classe salva jogar veio para o construtor porque quero que ela seja unica.
+    SalvarJogador salvarJogador;
 
     /**
      * Creates new form Cadastro1
@@ -206,7 +208,8 @@ public class CadastroJogador extends javax.swing.JFrame {
     }//GEN-LAST:event_btLimparActionPerformed
 
     private void btFecharActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btFecharActionPerformed
-        // TODO add your handling code here:
+        this.dispose();    // Irá fechar a tela que eu abrir na execução ou seja meu X está funcionado.... 
+                          //  mas para isso precisou de mofidificar o DefaultCloseOperations:Dispose
     }//GEN-LAST:event_btFecharActionPerformed
 
     private void txtNomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNomeActionPerformed
@@ -222,13 +225,18 @@ public class CadastroJogador extends javax.swing.JFrame {
         int telefone    = Integer.parseInt(txtTelefone.getText());
 
         // Instanciar o objeto Jogador que contém todos os get e sets
-        Jogador novojogador = new Jogador();
+         Jogador novojogador = new Jogador();
          novojogador.setNome(nome);
          novojogador.setRg(rg);
          novojogador.setEndereco(endereco);
          novojogador.setTelefone(telefone);        
          
+         salvarJogador.add(novojogador); //
+         
          JOptionPane.showMessageDialog(this, " Cadastros efetuado com sucesso"); 
+         
+         // Zerar componentes
+         
          
     }//GEN-LAST:event_btSalvarActionPerformed
 
@@ -236,6 +244,16 @@ public class CadastroJogador extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtRgActionPerformed
 
+    // Limpar a tela de cadastro do jogador
+    public void limparTela(){
+    
+      // Deixar em branco
+      txtNome.setText(""); 
+      txtRg.setText(""); 
+      txtEnd.setText(""); 
+      txtTelefone.setText("");        
+    }
+    
     /**
      * @param args the command line arguments
      */
