@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public class Rodadas {
 
-    public void Rodadas(ArrayList<Jogador> listaJogadores) {
+     public void Rodadas(ArrayList<Jogador> listaJogadores) {
         Jogo jogo1 = new Jogo(listaJogadores.get(0), listaJogadores.get(1));
         Jogo jogo2 = new Jogo(listaJogadores.get(2), listaJogadores.get(3));
         Jogo jogo3 = new Jogo(listaJogadores.get(4), listaJogadores.get(5));
@@ -55,5 +55,4 @@ public class Rodadas {
 
         final1.decidirPartida();
     }
-
 }

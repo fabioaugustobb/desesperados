@@ -13,8 +13,12 @@ import javax.swing.JOptionPane;
  */
 public class CadastroJogador extends javax.swing.JFrame {
 
+            // Instanciar o objeto Jogador que contém todos os get e sets
+    Jogador novoJogador = new Jogador();
+    TelaInicial ti = new TelaInicial();
+
     /**
-     * Creates new form Cadastro1
+     * Creates new form Cadastro
      */
     public CadastroJogador() {
         initComponents();
@@ -69,12 +73,6 @@ public class CadastroJogador extends javax.swing.JFrame {
         txtRg.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtRgActionPerformed(evt);
-            }
-        });
-
-        txtNome.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtNomeActionPerformed(evt);
             }
         });
 
@@ -201,17 +199,21 @@ public class CadastroJogador extends javax.swing.JFrame {
     }//GEN-LAST:event_txtTelefoneActionPerformed
 
     private void btLimparActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btLimparActionPerformed
-
-        // TODO add your handling code here:
+        
+        // Limpando os campos de texto
+        txtEnd.setText("");
+        txtRg.setText("");
+        txtNome.setText("");
+        txtTelefone.setText("");
+        
     }//GEN-LAST:event_btLimparActionPerformed
 
     private void btFecharActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btFecharActionPerformed
-        // TODO add your handling code here:
+        ti.setVisible(true); //Mostrar novamente a Tela Inicial
+        
+        this.dispose();      // Irá fechar a tela que eu abrir na execução ou seja meu X está funcionado.... 
+                             //  mas para isso precisou de mofidificar o DefaultCloseOperations:Dispose
     }//GEN-LAST:event_btFecharActionPerformed
-
-    private void txtNomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNomeActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtNomeActionPerformed
 
     private void btSalvarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btSalvarActionPerformed
 
@@ -221,20 +223,32 @@ public class CadastroJogador extends javax.swing.JFrame {
         String endereco = txtEnd.getText();
         int telefone = Integer.parseInt(txtTelefone.getText());
 
-        // Instanciar o objeto Jogador que contém todos os get e sets
-        Jogador novojogador = new Jogador();
-        novojogador.setNome(nome);
-        novojogador.setRg(rg);
-        novojogador.setEndereco(endereco);
-        novojogador.setTelefone(telefone);
+        novoJogador.setNome(nome);
+        novoJogador.setRg(rg);
+        novoJogador.setEndereco(endereco);
+        novoJogador.setTelefone(telefone);
+
+        novoJogador.criaListaJogadores(novoJogador);
 
         JOptionPane.showMessageDialog(this, " Cadastros efetuado com sucesso");
+
+         // Zerar componentes
 
     }//GEN-LAST:event_btSalvarActionPerformed
 
     private void txtRgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtRgActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtRgActionPerformed
+
+    // Limpar a tela de cadastro do jogador
+    public void limparTela() {
+
+        // Deixar em branco
+        txtNome.setText("");
+        txtRg.setText("");
+        txtEnd.setText("");
+        txtTelefone.setText("");
+    }
 
     /**
      * @param args the command line arguments

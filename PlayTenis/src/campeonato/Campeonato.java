@@ -5,6 +5,8 @@
  */
 package campeonato;
 
+import campeonato.Jogo;
+import campeonato.Jogador;
 import java.util.ArrayList;
 
 /**
@@ -17,20 +19,28 @@ public class Campeonato {
      * @param args the command line arguments
      */
     private String nomeTorneio;
-
+    private TelaInicial ti;
 
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        Jogador jogador = new Jogador ();
-		Jogo rodada = new Jogo ();
-		jogador.criaListaJogadores(); 
-		Campeonato PlayTenis = new Campeonato ("PlayTenis");
-		PlayTenis.rodadas(jogador.obterListaJogadores());
+
+        Jogador jogador = new Jogador();
+        Jogo rodada = new Jogo();
+        jogador.criaListaJogadores(jogador);
+        Campeonato playTenis = new Campeonato("PlayTenis");
+        Rodadas inicial = new Rodadas();
+        inicial.Rodadas(jogador.obterListaJogadores());
 
     }
 
-      	public Campeonato (String nomeTorneio) {
-		this.nomeTorneio = nomeTorneio;
-	}
+    public Campeonato() {
+        ti = new TelaInicial(this);
+        ti.setLocationRelativeTo(null);
+        ti.setVisible(true);
+    }
+
+    public Campeonato(String nomeTorneio) {
+        this.nomeTorneio = nomeTorneio;
+    }
+
 }
